@@ -9,6 +9,6 @@ f=t;
 plot(t,f,'r-.')
 xlabel('Tempo em segundos');
 ylabel('Resposta');
-title('Resposta ao impulso e trajetória da função no tempo');
+title('Resposta ao impulso e trajetÃ³ria da funÃ§Ã£o no tempo');
 
 set(gca, 'Color', 'k');
