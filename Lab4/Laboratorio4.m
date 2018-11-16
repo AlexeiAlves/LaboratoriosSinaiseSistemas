@@ -11,5 +11,5 @@ hold on
 plot(t,f,'r-.')
 xlabel('tempo em segundos');
 ylabel('resposta');
-title('resposta ao impulso e trajetória da função no tempo');
+title('resposta ao impulso e trajetÃ³ria da funÃ§Ã£o no tempo');
 
