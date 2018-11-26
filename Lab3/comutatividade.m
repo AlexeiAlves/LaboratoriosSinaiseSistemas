@@ -10,7 +10,7 @@ for i = 1:length(t)
     A(i) = x1(t(i));
     B(i) = x2(t(i));
 end
-%'same' retorna  a parte central da convolução
+%'same' retorna  a parte central da convoluÃ§Ã£o
 C1 = conv(A,B,'same');
 C2 = conv(B,A,'same');
 
