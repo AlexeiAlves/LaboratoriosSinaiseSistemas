@@ -27,20 +27,20 @@ step(t1);
 Ts = ((R*j)/(R*b)+(ke*kt));
 %Ganho simplificado em ra/v*s
 ks = (kt/((R*b)+(ke*kt)));
-%Função de transferência da posição:
+%FunÃ§Ã£o de transferÃªncia da posiÃ§Ã£o:
 num = [ks];
 den = [den,0];
 t2 = tf(num,den);
 %figure(1);
 %step(t2);
-%Função de transferência simplificada da posição
+%FunÃ§Ã£o de transferÃªncia simplificada da posiÃ§Ã£o
 num = [ks];
 den = [Ts 1 0];
 t3 = tf(num,den);
 %figure(2);
 %step(t3);
 
-%Equação 15 - função de transferência
+%EquaÃ§Ã£o 15 - funÃ§Ã£o de transferÃªncia
 num = [ks];
 den = [Tm 1];
 t4 = tf(num,den);
