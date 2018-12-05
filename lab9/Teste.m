@@ -20,11 +20,11 @@ y2 = [0; y2];
 X = [y1, y2, x1, x2];
 Y = y;
 
-T0 = getCoeficientes(X, Y); %obtÈm os coeficientes
+T0 = getCoeficientes(X, Y); %obt√©m os coeficientes
 
 ya = X * T0; %y estimado
 
-erro = getErro(y, ya); %erro quadr·tico
+erro = getErro(y, ya); %erro quadr√°tico
 
 n = 1:19; %intervalo
 figure(1);
